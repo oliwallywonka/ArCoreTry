@@ -15,11 +15,11 @@ E:/avanze de cursos/ArCoreTry
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55455
+54693
 Successfully changed project path to: E:/avanze de cursos/ArCoreTry
 E:/avanze de cursos/ArCoreTry
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002062 seconds.
+Registered in 0.002658 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.143 seconds
+- Completed reload, in  1.359 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000787 seconds.
+Registered in 0.002181 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
+- Completed reload, in  1.082 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1829.
-Total: 1.728400 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.420500 ms  DeleteObjects: 0.088700 ms)
+Total: 2.323600 ms (FindLiveObjects: 0.221300 ms CreateObjectMapping: 0.274500 ms MarkObjects: 1.771000 ms  DeleteObjects: 0.055600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs
-  artifactKey: Guid(a5be18f6c08406742a82b372520a9f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(a5be18f6c08406742a82b372520a9f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d6013bc40748cd53bd1761b2c2bf20') in 0.207955 seconds
-  Import took 0.210187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.429006 seconds.
-  path: Assets/Prefabs/Ch05_nonPBR@Defeated.fbx
-  artifactKey: Guid(c43c3ec3f40007846bde0faece25a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ch05_nonPBR@Defeated.fbx using Guid(c43c3ec3f40007846bde0faece25a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a3ad7aa83f5efcb7c7558c60c4d890') in 0.976708 seconds
-  Import took 0.980069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.467052 seconds.
-  path: Assets/Prefabs/Sphere.prefab
-  artifactKey: Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sphere.prefab using Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919f0edd5545b5ebe7fea3a2251b5796') in 0.025106 seconds
-  Import took 0.027506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001192 seconds.
-  path: Assets/Prefabs/Sphere.prefab
-  artifactKey: Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sphere.prefab using Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919f0edd5545b5ebe7fea3a2251b5796') in 0.011035 seconds
-  Import took 0.014424 seconds .
+  path: Assets/Prefabs/AR Default Point Cloud.prefab
+  artifactKey: Guid(af7ecaf6f7f9f8a4b933f09fd4949cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Default Point Cloud.prefab using Guid(af7ecaf6f7f9f8a4b933f09fd4949cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a09da86538debe0d3a43afbdb80b8c') in 0.076924 seconds
+  Import took 0.101419 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
