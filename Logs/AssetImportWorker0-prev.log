@@ -15,11 +15,11 @@ E:/avanze de cursos/ArCoreTry
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54693
+50378
 Successfully changed project path to: E:/avanze de cursos/ArCoreTry
 E:/avanze de cursos/ArCoreTry
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.96 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,49 +35,106 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002658 seconds.
+Registered in 0.001707 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.359 seconds
+- Completed reload, in  1.802 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002181 seconds.
+Registered in 0.000672 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.082 seconds
+- Completed reload, in  0.879 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.4 MB.
 System memory in use after: 65.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1829.
-Total: 2.323600 ms (FindLiveObjects: 0.221300 ms CreateObjectMapping: 0.274500 ms MarkObjects: 1.771000 ms  DeleteObjects: 0.055600 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 1.717300 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.071000 ms MarkObjects: 1.438300 ms  DeleteObjects: 0.050800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/AR Default Point Cloud.prefab
-  artifactKey: Guid(af7ecaf6f7f9f8a4b933f09fd4949cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AR Default Point Cloud.prefab using Guid(af7ecaf6f7f9f8a4b933f09fd4949cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a09da86538debe0d3a43afbdb80b8c') in 0.076924 seconds
-  Import took 0.101419 seconds .
+  path: Assets/Prefabs/SpawnableManager.cs
+  artifactKey: Guid(0eea2b3041811ba429999b968112f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpawnableManager.cs using Guid(0eea2b3041811ba429999b968112f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bd15c90ac168f993a9f96d23c159e9') in 0.036368 seconds
+  Import took 0.038643 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 37.8 MB.
+System memory in use after: 37.9 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 1.581600 ms (FindLiveObjects: 0.145400 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.367600 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.390954 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b542ac528e2b38d84f3390dc0a01313') in 0.100569 seconds
+  Import took 0.103787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.890560 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987f97acb27b5791cabbc208098fd31c') in 0.019194 seconds
+  Import took 0.021792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.483796 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(f8ee7a2b0998a9444bba865247376d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0e70315dbb4a49731a0aae5398114a') in 0.017570 seconds
+  Import took 0.020838 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.2 MB.
+System memory in use after: 41.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 4.892100 ms (FindLiveObjects: 0.158100 ms CreateObjectMapping: 0.161800 ms MarkObjects: 4.550800 ms  DeleteObjects: 0.019700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.4 MB.
+System memory in use after: 41.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 2.671200 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.352300 ms  DeleteObjects: 0.014700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
